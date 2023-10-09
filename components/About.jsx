@@ -8,7 +8,7 @@ const About = () => {
         <h1 className='text_header'>Rreth ne sh</h1>
       </hgroup>
       <div className='grid grid-cols-1 sm:grid-cols-2 gap-3 '>
-      <div className='card_about mt-6 sm:h-10 rounded-md  text-black bg-slate-100'>
+      <div className='card_about mt-6 sm:h-auto rounded-md  text-black bg-slate-100'>
          <div className=''>
            <h1>Ekperienc</h1>
            <div className='flex gap-3'>
