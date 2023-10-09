@@ -17,15 +17,16 @@ body{
 
 
 .home{
-  height: max-content;
+  height:fit-content;
 }
-.hide_bg{
-  mix-blend-mode: multiply;
-  filter: contrast(1);
+
+.heights{
+  height: 150px;
 }
-.img_container{
-  @apply my-6  grid  gap-4  justify-center items-center sm:grid sm:grid-cols-2   pt-10 
+.container{
+  @apply my-6  grid  gap-4  grid-cols-1 sm:grid sm:grid-cols-2   pt-10 
 }
+
 .img{
   @apply w-full
 }
@@ -35,6 +36,20 @@ body{
     cursor: pointer;
 }
 
+.section_layout{
+  @apply mt-10 grid grid-cols-1 divide-y;
+}
+.text_header{
+  @apply text-xl sm:text-4xl font-bold;
+}
+
+.card_about{
+  height: 428px;
+}
+
+.small_card{
+ @apply p-3  bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30 border-none w-full h-full
+}
 /* .main{
   width: 100vw;
   min-height: 100vh;

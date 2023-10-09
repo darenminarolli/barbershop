@@ -8,12 +8,11 @@ import Home from '@/components/Home'
 export default function HomePage() {
   return (
      <>
-    <section className='home mt-10 grid grid-cols-1 divide-y '>
+    <section className='flex flex-col'>
       <Home/>
-   </section><br/>
-   <section>
-
+      <About/>
    </section>
+ 
      </>
   )
 }
