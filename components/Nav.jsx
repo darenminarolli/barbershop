@@ -7,7 +7,7 @@ const Nav = () => {
        <ul className=' w-full flex justify-center items-center  gap-5 text-sm sm:text-lg cursor-pointer center_top'>
          <li ><Link className='hover:border-b' href="#"> Kreu</Link> </li>
          <li ><Link className='scroll-smooth hover:border-b' href="#about"> Rreth nesh</Link></ li>
-         <li ><Link className='hover:border-b' href="#"> Vlersimet </Link></li>
+         <li ><Link className='hover:border-b' href="#"> Punimet </Link></li>
          <li ><Link className='hover:border-b' href="#"> Kontakt</Link></li>
        </ul>
     </nav>

@@ -11,6 +11,7 @@ export default function HomePage() {
     <section className='flex flex-col'>
       <Home/>
       <About/>
+      <Review/>
    </section>
  
      </>
