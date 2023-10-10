@@ -11,9 +11,9 @@ const Home = () => {
      <h5 className='flex justify-center items-center text-sm'>Me eksperienc 10 vjecare ne treg.</h5>
     </div>
      <div className='container'>
-     <Image src='/assets/images/Img.jpg' className='img rounded shadow-md ' width={250} height={150} alt='photo'/>
+     <Image src='/assets/images/Img.jpg' className='img rounded-md shadow-md ' width={250} height={150} alt='photo'/>
      
-     <Image src='/assets/images/Img2.jpg' className='img rounded shadow-md ' width={250} height={150} alt='photo'/>
+     <Image src='/assets/images/Img2.jpg' className='img rounded-md shadow-md ' width={250} height={150} alt='photo'/>
 
      </div>
     </section>

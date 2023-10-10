@@ -1,13 +1,14 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Nav = () => {
   return (
-    <nav className='flex-center m-5 right-10'>
+    <nav className='flex-center m-5 right-10 '>
        <ul className=' w-full flex justify-center items-center  gap-5 text-sm sm:text-lg cursor-pointer center_top'>
-         <li ><a className='hover:border-b' href="#"> Kreu</a> </li>
-         <li ><a className='hover:border-b' href="#"> Rreth nesh</a></ li>
-         <li ><a className='hover:border-b' href="#"> Vlersimet </a></li>
-         <li ><a className='hover:border-b' href="#"> Kontakt</a></li>
+         <li ><Link className='hover:border-b' href="#"> Kreu</Link> </li>
+         <li ><Link className='scroll-smooth hover:border-b' href="#about"> Rreth nesh</Link></ li>
+         <li ><Link className='hover:border-b' href="#"> Vlersimet </Link></li>
+         <li ><Link className='hover:border-b' href="#"> Kontakt</Link></li>
        </ul>
     </nav>
   )
