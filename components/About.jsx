@@ -20,7 +20,7 @@ const About = () => {
         </div>
       ))}
      </div>
-      <Image src='/assets/images/pexels-thgusstavo-santana-1813346.jpg' className='w-full hover:cursor-pointer rounded-md shadow-md mt-6 ' width={250} height={250} alt='photo'/>
+      <Image src='/assets/images/pexels-thgusstavo-santana-1813346.jpg' className='w-full img rounded-md shadow-md mt-6 ' width={250} height={250} alt='photo'/>
      
       </div><br/>
     </section>

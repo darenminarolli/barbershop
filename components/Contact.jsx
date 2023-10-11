@@ -16,9 +16,9 @@ const Contact = () => {
          </hgroup>
          <div className='grid grid-cols-3'>
             <p>Tel:0676320355</p>
-            <div className=''>
+            <div className='mb-5 '>
               <Image src="/assets/images/logo-barber-removebg-preview.png" alt="logo" width={100} height={100} className='opacity-70' />
-              <div className='flex  gap-3'>
+              <div className='flex  gap-5 pl-2'>
               <a href="#">
               <svg class="h-8 w-8 text-red-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <rect x="4" y="4" width="16" height="16" rx="4" />  <circle cx="12" cy="12" r="3" />  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
               </svg>
@@ -29,7 +29,7 @@ const Contact = () => {
               </div>
 
             </div>
-            <p>Adresa: Rr.Gjergj Fishta, <br />
+            <p className='text-sm sm:text-base'>Adresa: Rr.Gjergj Fishta, <br />
             perball Big Market</p>
          </div>
       </div>
