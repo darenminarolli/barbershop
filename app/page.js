@@ -1,6 +1,5 @@
 import About from '@/components/About'
-
-import Review from '@/components/Review'
+import Works from '@/components/Works'
 import Contact from '@/components/Contact'
 import Image from 'next/image'
 import Home from '@/components/Home'
@@ -11,7 +10,8 @@ export default function HomePage() {
     <section className='flex flex-col'>
       <Home/>
       <About/>
-      <Review/>
+      <Works/>
+      <Contact/>
    </section>
  
      </>

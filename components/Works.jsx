@@ -3,7 +3,7 @@ import Image from 'next/image'
 import CardSwiper from './CardSwiper'
 const Review = () => {
   return (
-    <section className='section_layout'>
+    <section id='works' className='section_layout'>
        <hgroup className='grid justify-center items-center'>
         <h1 className='text_header'>Punimet</h1>
       </hgroup>
